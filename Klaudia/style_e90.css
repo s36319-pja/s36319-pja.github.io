@@ -1,0 +1,120 @@
+html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    
+    background-color: rgb(71, 71, 71);
+    color: white;
+}
+
+.naglowek{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.logo img{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 100px;
+}
+.bmw {
+    font-size: 25px;
+}
+
+.e90 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.informacje {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 100px;
+    margin-top: 20px;
+}
+
+.info {
+    width: 60%;
+    margin-left: 10%;
+    font-size: 22px;
+}
+
+.info h2 {
+    margin-top: 0;
+    font-size: 99px;
+    
+}
+
+.e90_1 img {
+    width: 85%;
+    margin-left: 15%;
+}
+
+.kategorie {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding: 100px;
+    flex-wrap: wrap;
+}
+
+.karta {
+    width: 240px;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    text-align: center;
+}
+
+.karta h2 {
+    font-size: 40px;
+}
+
+.karta p {
+    font-size: 20px;
+}
+.galeria-tytul {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 50px;
+}
+
+.galeria {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 30px;
+    flex-wrap: wrap;
+}
+
+.galeria img {
+    width: 450px;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.2);
+}
+
+
+
+
+
+
+
+
+
+footer {
+    background: linear-gradient(to right, #010391, #00aeff, rgb(255, 0, 0));
+    color: black;
+    text-align: center;
+    padding: 5px;
+    margin-top: 30px;
+}

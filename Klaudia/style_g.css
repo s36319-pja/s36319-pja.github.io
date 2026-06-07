@@ -1,0 +1,254 @@
+html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    
+    background-color: rgb(71, 71, 71);
+    color: white;
+}
+/* SEKCJA Nagłówek */
+.naglowek{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.logo img{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 100px;
+}
+.bmw {
+    font-size: 45px;
+}
+.ogolne{
+    font-size: 22px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* SEKCJA E90*/
+
+.sekcja-e90 {
+    display: flex;
+    padding: 50px;
+    gap: 300px;
+}
+
+.obrazek img {
+    width: 650px;
+    border-radius: 10px;
+}
+
+.opis {
+    max-width: 700px;
+}
+
+.opis h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.opis p {
+    font-size: 24px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+/* SEKCJA E92*/
+
+.sekcja-e92 {
+    display: flex;
+    padding: 50px;
+    gap: 200px;
+}
+
+/* Lewa strona */
+.opis-e92 {
+    max-width: 700px;
+    margin-top: 80px;
+}
+
+.opis-e92 h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.opis-e92 p {
+    font-size: 24px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+.zdjecie-e92 img {
+    width: 800px;
+    border-radius: 12px;
+}
+
+/* SEKCJA E91*/
+
+.sekcja-e91 {
+    display: flex;
+    padding: 50px;
+    gap: 300px;
+}
+
+.obrazek img {
+    width: 650px;
+    border-radius: 10px;
+}
+
+.opis-e91 {
+    max-width: 700px;
+}
+
+.opis-e91 h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.opis-e91 p {
+    font-size: 24px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.kontakt-sekcja {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 50px;
+    padding: 60px;
+}
+
+
+
+/* Formularz i mapa */
+.formularz-box {
+    width: 45%;
+}
+
+.formularz-box h1 {
+    font-size: 50px;
+    margin-bottom: 30px;
+    font-family: Oswald, sans-serif;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 22px;
+    margin-bottom: 8px;
+    margin-top: 15px;
+}
+
+input {
+    padding: 15px;
+    font-size: 20px;
+    border: 2px solid #ccc;
+    outline: none;
+}
+
+/* Przycisk */
+button {
+    margin-top: 30px;
+    padding: 18px;
+    font-size: 24px;
+    background: white;
+    color: black;
+    border: 2px solid #ccc;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #616161;
+    box-shadow: 0 0 22px rgb(0, 225, 255);
+    border-radius: 20px; /* zaokrąglony */
+}
+
+.mapa-box {
+    margin-top: 100px;
+    width: 50%;
+}
+
+.mapa-box iframe {
+    border-radius: 12px;
+}
+
+
+
+
+/* Przycisk Zobacz więcej */
+.przycisk {
+    display: inline-block;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    padding: 15px 35px;
+    border-radius: 0px; /* prostokątny */
+    font-size: 22px;
+    border: 2px solid #ddd;
+    transition: 0.3s;
+}
+.przycisk:hover {
+    background-color: #616161;
+    box-shadow: 0 0 22px rgb(0, 225, 255);
+    border-radius: 20px; /* zaokrąglony */
+}
+/* Paski oraz M*/
+.m-logo {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+.m-paski {
+    display: flex;
+}
+
+.pasek {
+    width: 22px;
+    height: 70px;
+    transform: skew(-20deg);
+}
+
+.jasny {
+    background: #81D8F7;
+}
+
+.niebieski {
+    background: #0066B1;
+}
+
+.czerwony {
+    background: #E7222E;
+}
+.litera-m {
+    color: white;
+    font-size: 80px;
+    font-weight: 900;
+    font-style: italic;
+    font-family: Arial, sans-serif;
+
+    transform: skew(-8deg);
+    line-height: 1;
+    letter-spacing: -5px;
+
+    text-shadow: 12px 5px 0 rgba(0,0,0,0.3);
+}
+
+/* Stopka */
+footer {
+    background: linear-gradient(to right, #010391, #00aeff, rgb(255, 0, 0));
+    color: black;
+    text-align: center;
+    padding: 5px;
+    margin-top: 30px;
+}
